@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>torndo测试</title>
+</head>
+<body>
+    当前时间：{{ time }}
+    <h1 id="hh" style="color: red;font-family: 黑体">hello world!!!</h1>
+    <script type="text/javascript">
+        window.onload = function () {
+            setInterval("changecolor()",1000)
+        }
+        function changecolor() {
+            h = document.getElementsById("hh")
+            if(h.style.color == "red")
+                  h.style.color = "green"
+            else
+                  h.style.color = "red"
+        }
+    </script>
+</body>
+</html>

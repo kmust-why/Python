@@ -1,0 +1,20 @@
+3张表：
+1#2#线综合单耗
+1#线桉木单耗
+2#线桉木单耗
+
+centos下安装端口扫描工具nmap:
+http://www.dedecms.com/knowledge/servers/linux-bsd/2012/0819/8442.html
+
+
+centos实现文件上传：
+1、通过:yum install lrzsz安装lrzsz,
+2、输入命令：rz,即可上传文件。
+
+
+
+
+
+
+
+

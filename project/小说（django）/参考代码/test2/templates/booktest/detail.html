@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>详细页</title>
+</head>
+<body>
+<h1>英雄列表</h1>
+<ul>
+  {%for hero in herolist%}
+  <li>{{hero.hname}}---{{hero.hcontent}}</li>
+  {%endfor%}
+</ul>
+</body>
+</html>

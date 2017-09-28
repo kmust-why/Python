@@ -1,0 +1,1333 @@
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jul 13 17:18:36 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-11) on 23 June 2017 00:48:09
+os: Linux-3.10.0-514.el7.x86_64 #1 SMP Tue Nov 22 16:42:41 UTC 2016
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/test2
+your processes number limit is 1945
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8880 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:41039 (port auto-assigned) fd 3
+Python version: 3.5.1 (default, Jun 21 2017, 23:18:28)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-11)]
+Python main interpreter initialized at 0x1e1fd90
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1e1fd90 pid: 17850 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 17850)
+spawned uWSGI worker 1 (pid: 17852, cores: 2)
+spawned uWSGI worker 2 (pid: 17853, cores: 2)
+spawned uWSGI worker 3 (pid: 17854, cores: 2)
+spawned uWSGI worker 4 (pid: 17855, cores: 2)
+spawned uWSGI http 1 (pid: 17856)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 17856)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jul 13 17:22:17 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-11) on 23 June 2017 00:48:09
+os: Linux-3.10.0-514.el7.x86_64 #1 SMP Tue Nov 22 16:42:41 UTC 2016
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/test2
+your processes number limit is 1945
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8880 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:36655 (port auto-assigned) fd 3
+Python version: 3.5.1 (default, Jun 21 2017, 23:18:28)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-11)]
+Python main interpreter initialized at 0x2588d90
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2588d90 pid: 17908 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 17908)
+spawned uWSGI worker 1 (pid: 17910, cores: 2)
+spawned uWSGI worker 2 (pid: 17911, cores: 2)
+spawned uWSGI worker 3 (pid: 17912, cores: 2)
+spawned uWSGI worker 4 (pid: 17913, cores: 2)
+spawned uWSGI http 1 (pid: 17918)
+/ GET
+[pid: 17910|app: 0|req: 1/1] 183.225.10.217 () {38 vars in 681 bytes} [Thu Jul 13 17:23:04 2017] GET / => generated 118 bytes in 31 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 17910|app: 0|req: 2/2] 183.225.10.217 () {38 vars in 663 bytes} [Thu Jul 13 17:23:27 2017] GET /favicon.ico => generated 112 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jul 13 17:38:50 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-11) on 23 June 2017 00:48:09
+os: Linux-3.10.0-514.el7.x86_64 #1 SMP Tue Nov 22 16:42:41 UTC 2016
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/test2
+your processes number limit is 1945
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8880).
+bind(): Address already in use [core/socket.c line 769]
+/ GET
+[pid: 17910|app: 0|req: 3/3] 183.225.10.217 () {40 vars in 712 bytes} [Thu Jul 13 17:38:55 2017] GET / => generated 333 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 17910|app: 0|req: 4/4] 183.225.10.217 () {40 vars in 726 bytes} [Thu Jul 13 17:38:57 2017] GET /1/ => generated 315 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 17910|app: 0|req: 5/5] 183.225.10.217 () {40 vars in 726 bytes} [Thu Jul 13 17:39:00 2017] GET /2/ => generated 276 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 17913|app: 0|req: 1/6] 183.225.10.217 () {40 vars in 726 bytes} [Thu Jul 13 17:39:03 2017] GET /3/ => generated 276 bytes in 39 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 17910|app: 0|req: 6/7] 183.225.10.217 () {40 vars in 726 bytes} [Thu Jul 13 17:39:05 2017] GET /4/ => generated 261 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 17913|app: 0|req: 2/8] 183.225.10.217 () {38 vars in 691 bytes} [Thu Jul 13 17:39:13 2017] GET /admin => generated 0 bytes in 3 msecs (HTTP/1.1 301) 2 headers in 93 bytes (1 switches on core 1)
+[pid: 17910|app: 0|req: 7/9] 183.225.10.217 () {38 vars in 693 bytes} [Thu Jul 13 17:39:13 2017] GET /admin/ => generated 0 bytes in 17 msecs (HTTP/1.1 302) 7 headers in 292 bytes (1 switches on core 0)
+[pid: 17910|app: 0|req: 8/10] 183.225.10.217 () {38 vars in 730 bytes} [Thu Jul 13 17:39:14 2017] GET /admin/login/?next=/admin/ => generated 1655 bytes in 15 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 17910|app: 0|req: 9/11] 183.225.10.217 () {38 vars in 782 bytes} [Thu Jul 13 17:39:14 2017] GET /static/admin/css/base.css => generated 126 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 17913|app: 0|req: 3/12] 183.225.10.217 () {38 vars in 784 bytes} [Thu Jul 13 17:39:14 2017] GET /static/admin/css/login.css => generated 127 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jul 13 17:42:25 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-11) on 23 June 2017 00:48:09
+os: Linux-3.10.0-514.el7.x86_64 #1 SMP Tue Nov 22 16:42:41 UTC 2016
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/test2
+your processes number limit is 1945
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8880).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 17910|app: 0|req: 10/13] 183.225.10.217 () {38 vars in 769 bytes} [Thu Jul 13 17:42:40 2017] GET /admin/ => generated 0 bytes in 2 msecs (HTTP/1.1 302) 7 headers in 292 bytes (1 switches on core 1)
+[pid: 17912|app: 0|req: 1/14] 183.225.10.217 () {38 vars in 806 bytes} [Thu Jul 13 17:42:40 2017] GET /admin/login/?next=/admin/ => generated 1655 bytes in 56 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 17913|app: 0|req: 4/15] 183.225.10.217 () {38 vars in 782 bytes} [Thu Jul 13 17:42:41 2017] GET /static/admin/css/base.css => generated 126 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 17911|app: 0|req: 1/16] 183.225.10.217 () {38 vars in 784 bytes} [Thu Jul 13 17:42:41 2017] GET /static/admin/css/login.css => generated 127 bytes in 32 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 17911|app: 0|req: 2/17] 183.225.10.217 () {48 vars in 1007 bytes} [Thu Jul 13 17:42:52 2017] POST /admin/login/?next=/admin/ => generated 0 bytes in 92 msecs (HTTP/1.1 302) 9 headers in 558 bytes (1 switches on core 1)
+[pid: 17912|app: 0|req: 2/18] 183.225.10.217 () {42 vars in 910 bytes} [Thu Jul 13 17:42:53 2017] GET /admin/ => generated 3829 bytes in 41 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 1)
+[pid: 17910|app: 0|req: 11/19] 183.225.10.217 () {38 vars in 807 bytes} [Thu Jul 13 17:42:53 2017] GET /static/admin/css/base.css => generated 126 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 17912|app: 0|req: 3/20] 183.225.10.217 () {38 vars in 817 bytes} [Thu Jul 13 17:42:53 2017] GET /static/admin/css/dashboard.css => generated 131 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+/ GET
+[pid: 17910|app: 0|req: 12/21] 183.225.10.217 () {38 vars in 801 bytes} [Thu Jul 13 17:43:49 2017] GET / => generated 333 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 17910|app: 0|req: 13/22] 183.225.10.217 () {40 vars in 846 bytes} [Thu Jul 13 17:43:51 2017] GET /3/ => generated 276 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jul 13 18:01:20 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-11) on 23 June 2017 00:48:09
+os: Linux-3.10.0-514.el7.x86_64 #1 SMP Tue Nov 22 16:42:41 UTC 2016
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/test2
+your processes number limit is 1945
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8880).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jul 13 18:09:15 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-11) on 23 June 2017 00:48:09
+os: Linux-3.10.0-514.el7.x86_64 #1 SMP Tue Nov 22 16:42:41 UTC 2016
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/test2
+your processes number limit is 1945
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8880).
+bind(): Address already in use [core/socket.c line 769]
+/ GET
+[pid: 17910|app: 0|req: 14/23] 183.225.10.217 () {38 vars in 801 bytes} [Thu Jul 13 18:09:39 2017] GET / => generated 333 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 17910|app: 0|req: 15/24] 183.225.10.217 () {40 vars in 846 bytes} [Thu Jul 13 18:09:43 2017] GET /1/ => generated 315 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 17913|app: 0|req: 5/25] 183.225.10.217 () {40 vars in 846 bytes} [Thu Jul 13 18:09:46 2017] GET /2/ => generated 276 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 17910|app: 0|req: 16/26] 183.225.10.217 () {40 vars in 846 bytes} [Thu Jul 13 18:09:51 2017] GET /3/ => generated 276 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 17913|app: 0|req: 6/27] 183.225.10.217 () {40 vars in 846 bytes} [Thu Jul 13 18:09:54 2017] GET /4/ => generated 261 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jul 13 18:18:34 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-11) on 23 June 2017 00:48:09
+os: Linux-3.10.0-514.el7.x86_64 #1 SMP Tue Nov 22 16:42:41 UTC 2016
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/test2
+your processes number limit is 1945
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8880).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jul 13 19:43:15 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-11) on 23 June 2017 00:48:09
+os: Linux-3.10.0-514.el7.x86_64 #1 SMP Tue Nov 22 16:42:41 UTC 2016
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/test2
+your processes number limit is 1945
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.93.39.34:8080 fd 3
+Python version: 3.5.1 (default, Jun 21 2017, 23:18:28)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-11)]
+Python main interpreter initialized at 0x1f39c80
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1f39c80 pid: 19412 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 19412)
+spawned uWSGI worker 1 (pid: 19414, cores: 2)
+spawned uWSGI worker 2 (pid: 19416, cores: 2)
+spawned uWSGI worker 3 (pid: 19417, cores: 2)
+spawned uWSGI worker 4 (pid: 19420, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jul 13 19:57:53 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-11) on 23 June 2017 00:48:09
+os: Linux-3.10.0-514.el7.x86_64 #1 SMP Tue Nov 22 16:42:41 UTC 2016
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/test2
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/test2
+your processes number limit is 1945
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.93.39.34:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:39458 (port auto-assigned) fd 3
+Python version: 3.5.1 (default, Jun 21 2017, 23:18:28)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-11)]
+Python main interpreter initialized at 0x2208d70
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2208d70 pid: 19582 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 19582)
+spawned uWSGI worker 1 (pid: 19584, cores: 2)
+spawned uWSGI worker 2 (pid: 19585, cores: 2)
+spawned uWSGI worker 3 (pid: 19586, cores: 2)
+spawned uWSGI worker 4 (pid: 19587, cores: 2)
+spawned uWSGI http 1 (pid: 19588)
+/ GET
+[pid: 19587|app: 0|req: 1/1] 183.225.10.217 () {38 vars in 801 bytes} [Thu Jul 13 19:58:03 2017] GET / => generated 333 bytes in 35 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 19587|app: 0|req: 2/2] 183.225.10.217 () {38 vars in 783 bytes} [Thu Jul 13 19:58:03 2017] GET /favicon.ico => generated 112 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 19584|app: 0|req: 1/3] 183.225.10.217 () {40 vars in 846 bytes} [Thu Jul 13 19:58:20 2017] GET /1/ => generated 315 bytes in 35 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 19584|app: 0|req: 2/4] 183.225.10.217 () {40 vars in 846 bytes} [Thu Jul 13 19:58:24 2017] GET /2/ => generated 276 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 19584|app: 0|req: 3/5] 183.225.10.217 () {40 vars in 846 bytes} [Thu Jul 13 19:58:29 2017] GET /3/ => generated 276 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+/ GET
+[pid: 19586|app: 0|req: 1/6] 183.225.10.217 () {40 vars in 832 bytes} [Thu Jul 13 19:58:34 2017] GET / => generated 333 bytes in 34 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 19584|app: 0|req: 4/7] 183.225.10.217 () {40 vars in 845 bytes} [Thu Jul 13 19:59:40 2017] GET /1/ => generated 315 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 19586|app: 0|req: 2/8] 183.225.10.217 () {40 vars in 845 bytes} [Thu Jul 13 19:59:43 2017] GET /2/ => generated 276 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 19584|app: 0|req: 5/9] 183.225.10.217 () {40 vars in 846 bytes} [Thu Jul 13 19:59:48 2017] GET /3/ => generated 276 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 19584|app: 0|req: 6/10] 183.225.10.217 () {40 vars in 846 bytes} [Thu Jul 13 19:59:50 2017] GET /4/ => generated 261 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 19586|app: 0|req: 3/11] 183.225.10.217 () {38 vars in 811 bytes} [Thu Jul 13 20:00:00 2017] GET /admin => generated 0 bytes in 2 msecs (HTTP/1.1 301) 2 headers in 93 bytes (1 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 19588)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 19584)...
+Gracefully killing worker 2 (pid: 19585)...
+Gracefully killing worker 3 (pid: 19586)...
+Gracefully killing worker 4 (pid: 19587)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/test2
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:39458)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jul 13 20:01:46 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-11) on 23 June 2017 00:48:09
+os: Linux-3.10.0-514.el7.x86_64 #1 SMP Tue Nov 22 16:42:41 UTC 2016
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/test2
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/test2
+your processes number limit is 1945
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.93.39.34:8080 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:41347 (port auto-assigned) fd 4
+Python version: 3.5.1 (default, Jun 21 2017, 23:18:28)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-11)]
+Python main interpreter initialized at 0x2638cd0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2638cd0 pid: 19582 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 19582)
+spawned uWSGI worker 1 (pid: 19647, cores: 2)
+spawned uWSGI worker 2 (pid: 19648, cores: 2)
+spawned uWSGI worker 3 (pid: 19649, cores: 2)
+spawned uWSGI worker 4 (pid: 19650, cores: 2)
+spawned uWSGI http 1 (pid: 19651)
+/ GET
+[pid: 19650|app: 0|req: 1/1] 183.225.10.217 () {40 vars in 832 bytes} [Thu Jul 13 20:01:53 2017] GET / => generated 333 bytes in 32 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+/ GET
+[pid: 19650|app: 0|req: 2/2] 183.225.10.217 () {40 vars in 832 bytes} [Thu Jul 13 20:01:57 2017] GET / => generated 333 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 19647|app: 0|req: 1/3] 183.225.10.217 () {38 vars in 813 bytes} [Thu Jul 13 20:02:04 2017] GET /admin/ => generated 3829 bytes in 65 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 19647|app: 0|req: 2/4] 183.225.10.217 () {38 vars in 807 bytes} [Thu Jul 13 20:02:05 2017] GET /static/admin/css/base.css => generated 126 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 19648|app: 0|req: 1/5] 183.225.10.217 () {38 vars in 817 bytes} [Thu Jul 13 20:02:05 2017] GET /static/admin/css/dashboard.css => generated 131 bytes in 24 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 19647|app: 0|req: 3/6] 183.225.10.217 () {40 vars in 904 bytes} [Thu Jul 13 20:02:19 2017] GET /admin/booktest/bookinfo/add/ => generated 14166 bytes in 63 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 19647|app: 0|req: 4/8] 183.225.10.217 () {38 vars in 828 bytes} [Thu Jul 13 20:02:20 2017] GET /static/admin/css/forms.css => generated 127 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 19648|app: 0|req: 2/8] 183.225.10.217 () {38 vars in 829 bytes} [Thu Jul 13 20:02:20 2017] GET /static/admin/css/base.css => generated 126 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 19650|app: 0|req: 3/9] 183.225.10.217 () {38 vars in 822 bytes} [Thu Jul 13 20:02:20 2017] GET /static/admin/js/jquery.init.js => generated 131 bytes in 12 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 19649|app: 0|req: 2/10] 183.225.10.217 () {38 vars in 810 bytes} [Thu Jul 13 20:02:20 2017] GET /static/admin/js/core.js => generated 124 bytes in 34 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 19649|app: 0|req: 2/11] 183.225.10.217 () {38 vars in 848 bytes} [Thu Jul 13 20:02:20 2017] GET /static/admin/js/vendor/jquery/jquery.min.js => generated 144 bytes in 35 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 19650|app: 0|req: 4/12] 183.225.10.217 () {38 vars in 853 bytes} [Thu Jul 13 20:02:20 2017] GET /static/admin/js/admin/RelatedObjectLookups.js => generated 146 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 19648|app: 0|req: 3/13] 183.225.10.217 () {38 vars in 823 bytes} [Thu Jul 13 20:02:20 2017] GET /static/admin/js/actions.min.js => generated 131 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 19648|app: 0|req: 4/14] 183.225.10.217 () {38 vars in 813 bytes} [Thu Jul 13 20:02:20 2017] GET /static/admin/js/urlify.js => generated 126 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 19647|app: 0|req: 5/15] 183.225.10.217 () {38 vars in 853 bytes} [Thu Jul 13 20:02:20 2017] GET /static/admin/js/vendor/xregexp/xregexp.min.js => generated 146 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 19650|app: 0|req: 5/16] 183.225.10.217 () {38 vars in 847 bytes} [Thu Jul 13 20:02:21 2017] GET /static/admin/js/admin/DateTimeShortcuts.js => generated 143 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 19647|app: 0|req: 6/17] 183.225.10.217 () {38 vars in 817 bytes} [Thu Jul 13 20:02:21 2017] GET /static/admin/js/calendar.js => generated 128 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 19649|app: 0|req: 3/18] 183.225.10.217 () {38 vars in 823 bytes} [Thu Jul 13 20:02:21 2017] GET /static/admin/js/inlines.min.js => generated 131 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 19650|app: 0|req: 6/19] 183.225.10.217 () {38 vars in 823 bytes} [Thu Jul 13 20:02:21 2017] GET /static/admin/js/change_form.js => generated 131 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 19647|app: 0|req: 7/20] 183.225.10.217 () {38 vars in 833 bytes} [Thu Jul 13 20:02:21 2017] GET /static/admin/js/prepopulate_init.js => generated 136 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 19650|app: 0|req: 7/21] 183.225.10.217 () {38 vars in 788 bytes} [Thu Jul 13 20:02:21 2017] GET /admin/jsi18n/ => generated 7682 bytes in 13 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 19647|app: 0|req: 8/22] 183.225.10.217 () {38 vars in 809 bytes} [Thu Jul 13 20:02:22 2017] GET /static/admin/js/core.js => generated 124 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 19649|app: 0|req: 4/23] 183.225.10.217 () {38 vars in 849 bytes} [Thu Jul 13 20:02:22 2017] GET /static/admin/js/vendor/jquery/jquery.min.js => generated 144 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 19650|app: 0|req: 8/24] 183.225.10.217 () {38 vars in 823 bytes} [Thu Jul 13 20:02:23 2017] GET /static/admin/js/jquery.init.js => generated 131 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 19649|app: 0|req: 5/25] 183.225.10.217 () {38 vars in 853 bytes} [Thu Jul 13 20:02:23 2017] GET /static/admin/js/admin/RelatedObjectLookups.js => generated 146 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 19647|app: 0|req: 9/26] 183.225.10.217 () {38 vars in 823 bytes} [Thu Jul 13 20:02:24 2017] GET /static/admin/js/actions.min.js => generated 131 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 19648|app: 0|req: 5/27] 183.225.10.217 () {38 vars in 813 bytes} [Thu Jul 13 20:02:24 2017] GET /static/admin/js/urlify.js => generated 126 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 19647|app: 0|req: 10/28] 183.225.10.217 () {38 vars in 811 bytes} [Thu Jul 13 20:02:39 2017] GET /admin => generated 0 bytes in 0 msecs (HTTP/1.1 301) 2 headers in 93 bytes (1 switches on core 1)
+[pid: 19650|app: 0|req: 9/29] 183.225.10.217 () {38 vars in 813 bytes} [Thu Jul 13 20:02:39 2017] GET /admin/ => generated 3829 bytes in 49 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 19647|app: 0|req: 11/30] 183.225.10.217 () {38 vars in 807 bytes} [Thu Jul 13 20:02:40 2017] GET /static/admin/css/base.css => generated 126 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 19649|app: 0|req: 6/31] 183.225.10.217 () {38 vars in 817 bytes} [Thu Jul 13 20:02:40 2017] GET /static/admin/css/dashboard.css => generated 131 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 19648|app: 0|req: 6/32] 183.225.10.217 () {40 vars in 904 bytes} [Thu Jul 13 20:02:49 2017] GET /admin/booktest/bookinfo/add/ => generated 14166 bytes in 85 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 19650|app: 0|req: 10/34] 183.225.10.217 () {38 vars in 824 bytes} [Thu Jul 13 20:02:49 2017] GET /static/admin/js/actions.min.js => generated 131 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 19648|app: 0|req: 7/34] 183.225.10.217 () {38 vars in 831 bytes} [Thu Jul 13 20:02:49 2017] GET /static/admin/css/forms.css => generated 127 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 19647|app: 0|req: 12/35] 183.225.10.217 () {38 vars in 824 bytes} [Thu Jul 13 20:02:50 2017] GET /static/admin/js/change_form.js => generated 131 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+/ GET
+[pid: 19649|app: 0|req: 7/36] 183.225.10.217 () {38 vars in 801 bytes} [Thu Jul 13 20:02:53 2017] GET / => generated 333 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 19647|app: 0|req: 13/37] 183.225.10.217 () {40 vars in 846 bytes} [Thu Jul 13 20:02:55 2017] GET /1/ => generated 315 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+gateway "uWSGI http 1" has been buried (pid: 19651)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 19647)...
+Gracefully killing worker 2 (pid: 19648)...
+Gracefully killing worker 3 (pid: 19649)...
+Gracefully killing worker 4 (pid: 19650)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/test2
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 4 mapped to socket 0 (127.0.0.1:41347)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jul 13 20:05:40 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-11) on 23 June 2017 00:48:09
+os: Linux-3.10.0-514.el7.x86_64 #1 SMP Tue Nov 22 16:42:41 UTC 2016
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/test2
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/test2
+your processes number limit is 1945
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.93.39.34:8080 fd 3
+Python version: 3.5.1 (default, Jun 21 2017, 23:18:28)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-11)]
+Python main interpreter initialized at 0x2795bf0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2795bf0 pid: 19582 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 19582)
+spawned uWSGI worker 1 (pid: 19694, cores: 2)
+spawned uWSGI worker 2 (pid: 19695, cores: 2)
+spawned uWSGI worker 3 (pid: 19696, cores: 2)
+spawned uWSGI worker 4 (pid: 19697, cores: 2)
+/ GET
+[pid: 19694|app: 0|req: 1/1] 183.225.10.217 () {44 vars in 877 bytes} [Thu Jul 13 20:06:45 2017] GET / => generated 333 bytes in 30 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 19694|app: 0|req: 2/2] 183.225.10.217 () {42 vars in 828 bytes} [Thu Jul 13 20:06:45 2017] GET /favicon.ico => generated 112 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 19695|app: 0|req: 1/3] 183.225.10.217 () {44 vars in 891 bytes} [Thu Jul 13 20:06:51 2017] GET /1/ => generated 315 bytes in 39 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+/ GET
+[pid: 19695|app: 0|req: 2/4] 183.225.10.217 () {44 vars in 877 bytes} [Thu Jul 13 20:06:56 2017] GET / => generated 333 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 19694|app: 0|req: 3/5] 183.225.10.217 () {42 vars in 856 bytes} [Thu Jul 13 20:07:03 2017] GET /admin => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 93 bytes (1 switches on core 0)
+[pid: 19697|app: 0|req: 1/6] 183.225.10.217 () {42 vars in 858 bytes} [Thu Jul 13 20:07:04 2017] GET /admin/ => generated 3829 bytes in 72 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 19694)...
+Gracefully killing worker 2 (pid: 19695)...
+Gracefully killing worker 3 (pid: 19696)...
+Gracefully killing worker 4 (pid: 19697)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/test2
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (172.93.39.34:8080)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jul 13 20:22:59 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-11) on 23 June 2017 00:48:09
+os: Linux-3.10.0-514.el7.x86_64 #1 SMP Tue Nov 22 16:42:41 UTC 2016
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/test2
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/test2
+your processes number limit is 1945
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 172.93.39.34:8080 fd 3
+Python version: 3.5.1 (default, Jun 21 2017, 23:18:28)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-11)]
+Python main interpreter initialized at 0x25e27d0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x25e27d0 pid: 19582 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 19582)
+spawned uWSGI worker 1 (pid: 19892, cores: 2)
+spawned uWSGI worker 2 (pid: 19893, cores: 2)
+spawned uWSGI worker 3 (pid: 19894, cores: 2)
+spawned uWSGI worker 4 (pid: 19895, cores: 2)
+[pid: 19892|app: 0|req: 1/1] 183.225.10.217 () {44 vars in 889 bytes} [Thu Jul 13 20:23:10 2017] GET /admin/ => generated 3829 bytes in 75 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+/ GET
+[pid: 19892|app: 0|req: 2/2] 183.225.10.217 () {42 vars in 846 bytes} [Thu Jul 13 20:23:17 2017] GET / => generated 333 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 19894|app: 0|req: 1/3] 183.225.10.217 () {44 vars in 891 bytes} [Thu Jul 13 20:23:19 2017] GET /2/ => generated 276 bytes in 36 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 19894|app: 0|req: 2/4] 183.225.10.217 () {42 vars in 858 bytes} [Thu Jul 13 20:23:29 2017] GET /admin/ => generated 3829 bytes in 46 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 1)
+[pid: 19892|app: 0|req: 3/5] 183.225.10.217 () {44 vars in 919 bytes} [Thu Jul 13 20:25:40 2017] GET /admin/logout/ => generated 1011 bytes in 46 msecs (HTTP/1.1 200) 6 headers in 322 bytes (1 switches on core 0)
+[pid: 19894|app: 0|req: 3/6] 183.225.10.217 () {44 vars in 868 bytes} [Thu Jul 13 20:25:44 2017] GET /admin/ => generated 0 bytes in 2 msecs (HTTP/1.1 302) 7 headers in 292 bytes (1 switches on core 0)
+[pid: 19893|app: 0|req: 1/7] 183.225.10.217 () {44 vars in 905 bytes} [Thu Jul 13 20:25:44 2017] GET /admin/login/?next=/admin/ => generated 1655 bytes in 55 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 19892|app: 0|req: 4/8] 183.225.10.217 () {52 vars in 1098 bytes} [Thu Jul 13 20:26:17 2017] POST /admin/login/?next=/admin/ => generated 0 bytes in 95 msecs (HTTP/1.1 302) 9 headers in 558 bytes (1 switches on core 1)
+[pid: 19894|app: 0|req: 4/9] 183.225.10.217 () {46 vars in 955 bytes} [Thu Jul 13 20:26:17 2017] GET /admin/ => generated 3829 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 1)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 19892)...
+Gracefully killing worker 2 (pid: 19893)...
+Gracefully killing worker 3 (pid: 19894)...
+Gracefully killing worker 4 (pid: 19895)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/test2
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (172.93.39.34:8080)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jul 13 20:38:05 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-11) on 23 June 2017 00:48:09
+os: Linux-3.10.0-514.el7.x86_64 #1 SMP Tue Nov 22 16:42:41 UTC 2016
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/test2
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/test2
+your processes number limit is 1945
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 172.93.39.34:8080 fd 3
+Python version: 3.5.1 (default, Jun 21 2017, 23:18:28)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-11)]
+Python main interpreter initialized at 0x209d7d0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+Traceback (most recent call last):
+  File "test2/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python3.5/site-packages/Django-1.10.5-py3.5.egg/django/core/wsgi.py", line 13, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/usr/local/lib/python3.5/site-packages/Django-1.10.5-py3.5.egg/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python3.5/site-packages/Django-1.10.5-py3.5.egg/django/apps/registry.py", line 108, in populate
+    app_config.import_models(all_models)
+  File "/usr/local/lib/python3.5/site-packages/Django-1.10.5-py3.5.egg/django/apps/config.py", line 199, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/local/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 662, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/usr/local/lib/python3.5/site-packages/tinymce/models.py", line 6, in <module>
+    from tinymce import widgets as tinymce_widgets
+  File "/usr/local/lib/python3.5/site-packages/tinymce/widgets.py", line 27, in <module>
+    import tinymce.settings
+  File "/usr/local/lib/python3.5/site-packages/tinymce/settings.py", line 19, in <module>
+    JS_ROOT = getattr(settings, 'TINYMCE_JS_ROOT', finders.find('tiny_mce', all=False))
+  File "/usr/local/lib/python3.5/site-packages/Django-1.10.5-py3.5.egg/django/contrib/staticfiles/finders.py", line 249, in find
+    for finder in get_finders():
+  File "/usr/local/lib/python3.5/site-packages/Django-1.10.5-py3.5.egg/django/contrib/staticfiles/finders.py", line 264, in get_finders
+    yield get_finder(finder_path)
+  File "/usr/local/lib/python3.5/site-packages/Django-1.10.5-py3.5.egg/django/contrib/staticfiles/finders.py", line 277, in get_finder
+    return Finder()
+  File "/usr/local/lib/python3.5/site-packages/Django-1.10.5-py3.5.egg/django/contrib/staticfiles/finders.py", line 66, in __init__
+    "The STATICFILES_DIRS setting should "
+django.core.exceptions.ImproperlyConfigured: The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 19582)
+spawned uWSGI worker 1 (pid: 20055, cores: 2)
+spawned uWSGI worker 2 (pid: 20056, cores: 2)
+spawned uWSGI worker 3 (pid: 20057, cores: 2)
+spawned uWSGI worker 4 (pid: 20058, cores: 2)
+--- no python application found, check your startup logs for errors ---
+[pid: 20055|app: -1|req: -1/1] 183.225.10.217 () {44 vars in 919 bytes} [Thu Jul 13 20:38:20 2017] GET /admin/logout/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20055|app: -1|req: -1/2] 183.225.10.217 () {44 vars in 924 bytes} [Thu Jul 13 20:38:24 2017] GET /admin/ => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20055|app: -1|req: -1/3] 183.225.10.217 () {42 vars in 846 bytes} [Thu Jul 13 20:38:32 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20055|app: -1|req: -1/4] 183.225.10.217 () {44 vars in 877 bytes} [Thu Jul 13 20:38:35 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20055|app: -1|req: -1/5] 183.225.10.217 () {44 vars in 877 bytes} [Thu Jul 13 20:38:38 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20055|app: -1|req: -1/6] 183.225.10.217 () {44 vars in 877 bytes} [Thu Jul 13 20:38:39 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20055|app: -1|req: -1/7] 183.225.10.217 () {44 vars in 877 bytes} [Thu Jul 13 20:38:40 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+--- no python application found, check your startup logs for errors ---
+[pid: 20055|app: -1|req: -1/8] 183.225.10.217 () {44 vars in 877 bytes} [Thu Jul 13 20:38:40 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 20055)...
+Gracefully killing worker 2 (pid: 20056)...
+Gracefully killing worker 3 (pid: 20057)...
+Gracefully killing worker 4 (pid: 20058)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/test2
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (172.93.39.34:8080)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jul 13 20:39:54 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-11) on 23 June 2017 00:48:09
+os: Linux-3.10.0-514.el7.x86_64 #1 SMP Tue Nov 22 16:42:41 UTC 2016
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/test2
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/test2
+your processes number limit is 1945
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 172.93.39.34:8080 fd 3
+Python version: 3.5.1 (default, Jun 21 2017, 23:18:28)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-11)]
+Python main interpreter initialized at 0x1e107d0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1e107d0 pid: 19582 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 19582)
+spawned uWSGI worker 1 (pid: 20091, cores: 2)
+spawned uWSGI worker 2 (pid: 20092, cores: 2)
+spawned uWSGI worker 3 (pid: 20093, cores: 2)
+spawned uWSGI worker 4 (pid: 20094, cores: 2)
+/ GET
+[pid: 20093|app: 0|req: 1/1] 183.225.10.217 () {44 vars in 877 bytes} [Thu Jul 13 20:40:05 2017] GET / => generated 333 bytes in 32 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20093|app: 0|req: 2/2] 183.225.10.217 () {44 vars in 891 bytes} [Thu Jul 13 20:40:07 2017] GET /1/ => generated 315 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20093|app: 0|req: 3/3] 183.225.10.217 () {42 vars in 858 bytes} [Thu Jul 13 20:40:13 2017] GET /admin/ => generated 3829 bytes in 42 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 20093|app: 0|req: 4/4] 183.225.10.217 () {44 vars in 937 bytes} [Thu Jul 13 20:40:25 2017] GET /admin/password_change/ => generated 2516 bytes in 22 msecs (HTTP/1.1 200) 4 headers in 256 bytes (1 switches on core 1)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 20091)...
+Gracefully killing worker 2 (pid: 20092)...
+Gracefully killing worker 3 (pid: 20093)...
+Gracefully killing worker 4 (pid: 20094)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /root/test2
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (172.93.39.34:8080)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Jul 13 20:51:37 2017] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-11) on 23 June 2017 00:48:09
+os: Linux-3.10.0-514.el7.x86_64 #1 SMP Tue Nov 22 16:42:41 UTC 2016
+nodename: localhost.localdomain
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/test2
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/test2
+your processes number limit is 1945
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 172.93.39.34:8080 fd 3
+Python version: 3.5.1 (default, Jun 21 2017, 23:18:28)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-11)]
+Python main interpreter initialized at 0x22e37d0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x22e37d0 pid: 19582 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 19582)
+spawned uWSGI worker 1 (pid: 20247, cores: 2)
+spawned uWSGI worker 2 (pid: 20248, cores: 2)
+spawned uWSGI worker 3 (pid: 20249, cores: 2)
+spawned uWSGI worker 4 (pid: 20250, cores: 2)
+[pid: 20247|app: 0|req: 1/1] 183.225.10.217 () {42 vars in 858 bytes} [Thu Jul 13 20:51:51 2017] GET /admin/ => generated 3829 bytes in 77 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+/ GET
+[pid: 20247|app: 0|req: 2/2] 183.225.10.217 () {42 vars in 846 bytes} [Thu Jul 13 20:53:29 2017] GET / => generated 333 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 3/3] 183.225.10.217 () {44 vars in 891 bytes} [Thu Jul 13 20:53:31 2017] GET /2/ => generated 276 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 4/4] 183.225.10.217 () {42 vars in 858 bytes} [Thu Jul 13 20:53:42 2017] GET /admin/ => generated 3829 bytes in 18 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 5/5] 183.225.10.217 () {44 vars in 941 bytes} [Thu Jul 13 20:53:45 2017] GET /admin/booktest/bookinfo/ => generated 7593 bytes in 43 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 6/6] 183.225.10.217 () {42 vars in 831 bytes} [Thu Jul 13 20:53:45 2017] GET /admin/jsi18n/ => generated 7682 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 7/7] 183.225.10.217 () {42 vars in 858 bytes} [Thu Jul 13 20:53:50 2017] GET /admin/ => generated 3829 bytes in 18 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 8/8] 183.225.10.217 () {44 vars in 941 bytes} [Thu Jul 13 20:53:51 2017] GET /admin/booktest/heroinfo/ => generated 12015 bytes in 62 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 9/9] 183.225.10.217 () {42 vars in 831 bytes} [Thu Jul 13 20:53:52 2017] GET /admin/jsi18n/ => generated 7682 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 10/10] 183.225.10.217 () {44 vars in 923 bytes} [Thu Jul 13 20:55:44 2017] GET /admin/ => generated 3829 bytes in 20 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 11/11] 183.225.10.217 () {44 vars in 941 bytes} [Thu Jul 13 20:55:51 2017] GET /admin/booktest/heroinfo/ => generated 12015 bytes in 47 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+/ GET
+[pid: 20247|app: 0|req: 12/12] 183.225.10.217 () {44 vars in 911 bytes} [Thu Jul 13 20:56:23 2017] GET / => generated 333 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 13/13] 183.225.10.217 () {44 vars in 941 bytes} [Thu Jul 13 20:56:25 2017] GET /admin/booktest/heroinfo/ => generated 12015 bytes in 52 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+/ GET
+[pid: 20247|app: 0|req: 14/14] 183.225.10.217 () {44 vars in 911 bytes} [Thu Jul 13 20:56:27 2017] GET / => generated 333 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20248|app: 0|req: 1/15] 183.225.10.217 () {44 vars in 941 bytes} [Thu Jul 13 20:56:29 2017] GET /admin/booktest/heroinfo/ => generated 12015 bytes in 100 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 2/16] 183.225.10.217 () {44 vars in 955 bytes} [Thu Jul 13 20:56:32 2017] GET /admin/password_change/ => generated 2516 bytes in 23 msecs (HTTP/1.1 200) 4 headers in 256 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 15/17] 183.225.10.217 () {44 vars in 941 bytes} [Thu Jul 13 20:56:38 2017] GET /admin/booktest/heroinfo/ => generated 12015 bytes in 45 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 16/18] 183.225.10.217 () {44 vars in 923 bytes} [Thu Jul 13 20:56:42 2017] GET /admin/ => generated 3829 bytes in 20 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 17/19] 183.225.10.217 () {44 vars in 941 bytes} [Thu Jul 13 20:56:49 2017] GET /admin/booktest/bookinfo/ => generated 7593 bytes in 35 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 18/20] 183.225.10.217 () {42 vars in 831 bytes} [Thu Jul 13 20:56:50 2017] GET /admin/jsi18n/ => generated 7682 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 19/21] 183.225.10.217 () {44 vars in 982 bytes} [Thu Jul 13 20:57:04 2017] GET /admin/booktest/bookinfo/?q=%E5%A4%A9 => generated 6518 bytes in 38 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 20/22] 183.225.10.217 () {42 vars in 843 bytes} [Thu Jul 13 20:57:04 2017] GET /admin/jsi18n/ => generated 7682 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 21/23] 183.225.10.217 () {44 vars in 935 bytes} [Thu Jul 13 20:57:11 2017] GET /admin/ => generated 3829 bytes in 21 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 22/24] 183.225.10.217 () {44 vars in 941 bytes} [Thu Jul 13 20:57:14 2017] GET /admin/booktest/bookinfo/ => generated 7593 bytes in 34 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 23/25] 183.225.10.217 () {42 vars in 831 bytes} [Thu Jul 13 20:57:14 2017] GET /admin/jsi18n/ => generated 7682 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 3/26] 183.225.10.217 () {44 vars in 935 bytes} [Thu Jul 13 20:57:19 2017] GET /admin/ => generated 3829 bytes in 23 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 24/27] 183.225.10.217 () {44 vars in 941 bytes} [Thu Jul 13 20:57:29 2017] GET /admin/booktest/bookinfo/ => generated 7593 bytes in 33 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20248|app: 0|req: 4/28] 183.225.10.217 () {42 vars in 831 bytes} [Thu Jul 13 20:57:29 2017] GET /admin/jsi18n/ => generated 7682 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 25/29] 183.225.10.217 () {44 vars in 935 bytes} [Thu Jul 13 20:57:31 2017] GET /admin/ => generated 3829 bytes in 26 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 26/30] 183.225.10.217 () {44 vars in 941 bytes} [Thu Jul 13 20:57:57 2017] GET /admin/booktest/bookinfo/ => generated 7593 bytes in 39 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 27/31] 183.225.10.217 () {42 vars in 831 bytes} [Thu Jul 13 20:57:57 2017] GET /admin/jsi18n/ => generated 7682 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 5/32] 183.225.10.217 () {44 vars in 977 bytes} [Thu Jul 13 20:58:04 2017] GET /admin/booktest/bookinfo/4/change/ => generated 21913 bytes in 80 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 28/33] 183.225.10.217 () {42 vars in 840 bytes} [Thu Jul 13 20:58:04 2017] GET /admin/jsi18n/ => generated 7682 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20248|app: 0|req: 6/34] 183.225.10.217 () {44 vars in 941 bytes} [Thu Jul 13 20:58:10 2017] GET /admin/booktest/bookinfo/ => generated 7593 bytes in 31 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+/ GET
+[pid: 20247|app: 0|req: 29/35] 183.57.53.197 () {38 vars in 625 bytes} [Thu Jul 13 20:59:47 2017] GET / => generated 333 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+/ GET
+[pid: 20247|app: 0|req: 30/36] 101.226.33.204 () {40 vars in 653 bytes} [Thu Jul 13 20:59:47 2017] GET / => generated 333 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+/ GET
+[pid: 20248|app: 0|req: 7/37] 101.226.125.111 () {38 vars in 590 bytes} [Thu Jul 13 20:59:56 2017] GET / => generated 333 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+/ GET
+[pid: 20248|app: 0|req: 8/38] 180.163.2.116 () {38 vars in 552 bytes} [Thu Jul 13 20:59:56 2017] GET / => generated 333 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 31/39] 183.225.10.217 () {44 vars in 923 bytes} [Thu Jul 13 21:00:55 2017] GET /admin/ => generated 3829 bytes in 21 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 32/40] 183.225.10.217 () {44 vars in 949 bytes} [Thu Jul 13 21:00:59 2017] GET /admin/booktest/bookinfo/add/ => generated 14166 bytes in 59 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 33/41] 183.225.10.217 () {42 vars in 835 bytes} [Thu Jul 13 21:00:59 2017] GET /admin/jsi18n/ => generated 7682 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 34/42] 183.225.10.217 () {44 vars in 945 bytes} [Thu Jul 13 21:01:20 2017] GET /admin/booktest/ => generated 2655 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 35/43] 183.225.10.217 () {44 vars in 950 bytes} [Thu Jul 13 21:01:32 2017] GET /admin/booktest/heroinfo/ => generated 12015 bytes in 51 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 36/44] 183.225.10.217 () {42 vars in 831 bytes} [Thu Jul 13 21:01:33 2017] GET /admin/jsi18n/ => generated 7682 bytes in 15 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 37/45] 183.225.10.217 () {44 vars in 945 bytes} [Thu Jul 13 21:01:35 2017] GET /admin/booktest/ => generated 2655 bytes in 15 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 38/46] 183.225.10.217 () {44 vars in 958 bytes} [Thu Jul 13 21:01:37 2017] GET /admin/booktest/heroinfo/add/ => generated 6566 bytes in 35 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 39/47] 183.225.10.217 () {42 vars in 835 bytes} [Thu Jul 13 21:01:37 2017] GET /admin/jsi18n/ => generated 7682 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 40/48] 183.225.10.217 () {44 vars in 945 bytes} [Thu Jul 13 21:01:43 2017] GET /admin/booktest/ => generated 2655 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 41/49] 183.225.10.217 () {44 vars in 950 bytes} [Thu Jul 13 21:01:45 2017] GET /admin/booktest/bookinfo/ => generated 7593 bytes in 36 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 42/50] 183.225.10.217 () {42 vars in 831 bytes} [Thu Jul 13 21:01:45 2017] GET /admin/jsi18n/ => generated 7682 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 43/51] 183.225.10.217 () {44 vars in 967 bytes} [Thu Jul 13 21:01:48 2017] GET /admin/booktest/bookinfo/add/ => generated 14166 bytes in 55 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 44/52] 183.225.10.217 () {42 vars in 835 bytes} [Thu Jul 13 21:01:48 2017] GET /admin/jsi18n/ => generated 7682 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 45/53] 183.225.10.217 () {52 vars in 1224 bytes} [Thu Jul 13 21:03:47 2017] POST /admin/booktest/bookinfo/add/ => generated 0 bytes in 64 msecs (HTTP/1.1 302) 8 headers in 539 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 46/54] 183.225.10.217 () {46 vars in 1211 bytes} [Thu Jul 13 21:03:47 2017] GET /admin/booktest/bookinfo/ => generated 8319 bytes in 40 msecs (HTTP/1.1 200) 8 headers in 489 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 47/55] 183.225.10.217 () {42 vars in 831 bytes} [Thu Jul 13 21:03:48 2017] GET /admin/jsi18n/ => generated 7682 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 48/56] 183.225.10.217 () {44 vars in 941 bytes} [Thu Jul 13 21:04:00 2017] GET /admin/booktest/ => generated 2655 bytes in 14 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 49/57] 183.225.10.217 () {44 vars in 950 bytes} [Thu Jul 13 21:04:03 2017] GET /admin/booktest/heroinfo/ => generated 12455 bytes in 43 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 50/58] 183.225.10.217 () {42 vars in 831 bytes} [Thu Jul 13 21:04:03 2017] GET /admin/jsi18n/ => generated 7682 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 51/59] 183.225.10.217 () {44 vars in 979 bytes} [Thu Jul 13 21:04:11 2017] GET /admin/booktest/heroinfo/18/change/ => generated 6876 bytes in 35 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 52/60] 183.225.10.217 () {42 vars in 841 bytes} [Thu Jul 13 21:04:11 2017] GET /admin/jsi18n/ => generated 7682 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20248|app: 0|req: 9/61] 183.225.10.217 () {52 vars in 1240 bytes} [Thu Jul 13 21:04:20 2017] POST /admin/booktest/heroinfo/18/change/ => generated 0 bytes in 52 msecs (HTTP/1.1 302) 8 headers in 540 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 10/62] 183.225.10.217 () {46 vars in 1218 bytes} [Thu Jul 13 21:04:21 2017] GET /admin/booktest/heroinfo/ => generated 12632 bytes in 49 msecs (HTTP/1.1 200) 8 headers in 489 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 53/63] 183.225.10.217 () {42 vars in 831 bytes} [Thu Jul 13 21:04:21 2017] GET /admin/jsi18n/ => generated 7682 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 54/64] 183.225.10.217 () {44 vars in 955 bytes} [Thu Jul 13 21:12:45 2017] GET /admin/password_change/ => generated 2516 bytes in 27 msecs (HTTP/1.1 200) 4 headers in 256 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 55/65] 183.225.10.217 () {42 vars in 862 bytes} [Thu Jul 13 21:29:30 2017] GET /gettest1 => generated 0 bytes in 2 msecs (HTTP/1.1 301) 2 headers in 96 bytes (1 switches on core 0)
+[pid: 20250|app: 0|req: 1/66] 183.225.10.217 () {42 vars in 864 bytes} [Thu Jul 13 21:29:30 2017] GET /gettest1/ => generated 248 bytes in 27 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 56/67] 183.225.10.217 () {44 vars in 971 bytes} [Thu Jul 13 21:29:38 2017] GET /gettest2/?a=%E6%9D%8E%E5%9B%9B&b=2&c=3 => generated 155 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+['1', '3', '2']
+[pid: 20250|app: 0|req: 2/68] 183.225.10.217 () {44 vars in 937 bytes} [Thu Jul 13 21:29:42 2017] GET /gettest3/?a=1&a=3&a=2 => generated 123 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 57/69] 183.225.10.217 () {42 vars in 862 bytes} [Thu Jul 13 21:30:40 2017] GET /gettest2 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 96 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 11/70] 183.225.10.217 () {42 vars in 864 bytes} [Thu Jul 13 21:30:40 2017] GET /gettest2/ => generated 27 bytes in 37 msecs (HTTP/1.1 500) 3 headers in 106 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 12/71] 183.225.10.217 () {42 vars in 862 bytes} [Thu Jul 13 21:30:57 2017] GET /gettest3 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 2 headers in 96 bytes (1 switches on core 1)
+[]
+[pid: 20250|app: 0|req: 3/72] 183.225.10.217 () {42 vars in 864 bytes} [Thu Jul 13 21:30:58 2017] GET /gettest3/ => generated 123 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 13/73] 183.225.10.217 () {42 vars in 862 bytes} [Thu Jul 13 21:31:18 2017] GET /getpost1 => generated 0 bytes in 2 msecs (HTTP/1.1 301) 2 headers in 96 bytes (1 switches on core 1)
+[pid: 20250|app: 0|req: 4/74] 183.225.10.217 () {42 vars in 864 bytes} [Thu Jul 13 21:31:18 2017] GET /getpost1/ => generated 718 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20250|app: 0|req: 5/75] 183.225.10.217 () {52 vars in 1095 bytes} [Thu Jul 13 21:31:28 2017] POST /getpost2/ => generated 995 bytes in 5 msecs (HTTP/1.1 403) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 58/76] 183.225.10.217 () {42 vars in 864 bytes} [Thu Jul 13 21:31:47 2017] GET /getpost2/ => generated 27 bytes in 27 msecs (HTTP/1.1 500) 3 headers in 106 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 59/77] 183.225.10.217 () {42 vars in 864 bytes} [Thu Jul 13 21:31:51 2017] GET /getpost3/ => generated 110 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 60/78] 183.225.10.217 () {42 vars in 866 bytes} [Thu Jul 13 21:32:37 2017] GET /cookietest => generated 0 bytes in 0 msecs (HTTP/1.1 301) 2 headers in 98 bytes (1 switches on core 1)
+{'csrftoken': 'Rb1sJX9vR6eoB19VjwG3phHpnX9hGlnjonDloQaKiXFB6nkue39hsFwW2loNUlox', 'sessionid': 'pebnqm03eb37yp4d39ono365w9m1pgs3', 'td_cookie': '18446744072937210903'}
+[pid: 20248|app: 0|req: 14/79] 183.225.10.217 () {42 vars in 868 bytes} [Thu Jul 13 21:32:37 2017] GET /cookietest/ => generated 2 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 20247|app: 0|req: 61/80] 183.225.10.217 () {42 vars in 870 bytes} [Thu Jul 13 21:32:50 2017] GET /redirecttest => generated 0 bytes in 0 msecs (HTTP/1.1 301) 2 headers in 100 bytes (1 switches on core 1)
+[pid: 20250|app: 0|req: 6/81] 183.225.10.217 () {42 vars in 872 bytes} [Thu Jul 13 21:32:50 2017] GET /redirecttest/ => generated 0 bytes in 8 msecs (HTTP/1.1 302) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 62/82] 183.225.10.217 () {42 vars in 890 bytes} [Thu Jul 13 21:32:51 2017] GET /redirecttest/getpost1/ => generated 123 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 20250|app: 0|req: 7/83] 183.225.10.217 () {42 vars in 870 bytes} [Thu Jul 13 21:33:09 2017] GET /seesiontest1 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 100 bytes (1 switches on core 1)
+[pid: 20250|app: 0|req: 8/84] 183.225.10.217 () {42 vars in 872 bytes} [Thu Jul 13 21:33:09 2017] GET /seesiontest1/ => generated 223 bytes in 14 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 63/85] 183.225.10.217 () {44 vars in 926 bytes} [Thu Jul 13 21:33:12 2017] GET /seesiontest2/ => generated 255 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20250|app: 0|req: 9/86] 183.225.10.217 () {52 vars in 1111 bytes} [Thu Jul 13 21:33:15 2017] POST /session2_handle/ => generated 995 bytes in 3 msecs (HTTP/1.1 403) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 64/87] 183.225.10.217 () {42 vars in 866 bytes} [Thu Jul 13 21:33:57 2017] GET /objecttest => generated 0 bytes in 0 msecs (HTTP/1.1 301) 2 headers in 98 bytes (1 switches on core 1)
+[pid: 20248|app: 0|req: 15/88] 183.225.10.217 () {42 vars in 868 bytes} [Thu Jul 13 21:33:58 2017] GET /objecttest/ => generated 1347 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 65/89] 183.225.10.217 () {44 vars in 922 bytes} [Thu Jul 13 21:34:01 2017] GET /urltest/678/ => generated 129 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20248|app: 0|req: 16/90] 183.225.10.217 () {42 vars in 860 bytes} [Thu Jul 13 21:34:16 2017] GET /urltest => generated 108 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 66/91] 183.225.10.217 () {42 vars in 862 bytes} [Thu Jul 13 21:34:28 2017] GET /temptest => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 96 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 17/92] 183.225.10.217 () {42 vars in 864 bytes} [Thu Jul 13 21:34:29 2017] GET /temptest/ => generated 196 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 18/93] 183.225.10.217 () {42 vars in 856 bytes} [Thu Jul 13 21:34:41 2017] GET /user1 => generated 0 bytes in 0 msecs (HTTP/1.1 301) 2 headers in 93 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 67/94] 183.225.10.217 () {42 vars in 858 bytes} [Thu Jul 13 21:34:41 2017] GET /user1/ => generated 324 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 68/95] 183.225.10.217 () {42 vars in 858 bytes} [Thu Jul 13 21:34:51 2017] GET /user2/ => generated 292 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20250|app: 0|req: 10/96] 183.225.10.217 () {42 vars in 862 bytes} [Thu Jul 13 21:35:03 2017] GET /htmltest => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 96 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 19/97] 183.225.10.217 () {42 vars in 864 bytes} [Thu Jul 13 21:35:03 2017] GET /htmltest/ => generated 195 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20250|app: 0|req: 11/98] 183.225.10.217 () {42 vars in 860 bytes} [Thu Jul 13 21:35:20 2017] GET /imgtest => generated 0 bytes in 0 msecs (HTTP/1.1 301) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 20248|app: 0|req: 20/99] 183.225.10.217 () {42 vars in 862 bytes} [Thu Jul 13 21:35:20 2017] GET /imgtest/ => generated 311 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 21/100] 183.225.10.217 () {42 vars in 864 bytes} [Thu Jul 13 21:35:51 2017] GET /uploadPic => generated 0 bytes in 0 msecs (HTTP/1.1 301) 2 headers in 97 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 69/101] 183.225.10.217 () {42 vars in 866 bytes} [Thu Jul 13 21:35:51 2017] GET /uploadPic/ => generated 477 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 256 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 70/102] 183.225.10.217 () {52 vars in 1178 bytes} [Thu Jul 13 21:38:20 2017] POST /uploadHandle/ => generated 31 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20248|app: 0|req: 22/103] 183.225.10.217 () {52 vars in 1178 bytes} [Thu Jul 13 21:42:45 2017] POST /uploadHandle/ => generated 31 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 1)
+[pid: 20250|app: 0|req: 12/104] 183.225.10.217 () {42 vars in 862 bytes} [Thu Jul 13 21:43:35 2017] GET /herolist => generated 109 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+/ GET
+[pid: 20247|app: 0|req: 71/105] 183.225.10.217 () {42 vars in 846 bytes} [Thu Jul 13 21:47:04 2017] GET / => generated 383 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 72/106] 183.225.10.217 () {44 vars in 891 bytes} [Thu Jul 13 21:47:09 2017] GET /3/ => generated 276 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 73/107] 183.225.10.217 () {44 vars in 891 bytes} [Thu Jul 13 21:47:13 2017] GET /5/ => generated 159 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 23/108] 183.225.10.217 () {44 vars in 891 bytes} [Thu Jul 13 21:47:20 2017] GET /4/ => generated 261 bytes in 10 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 74/109] 183.225.10.217 () {44 vars in 891 bytes} [Thu Jul 13 21:47:22 2017] GET /2/ => generated 276 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+/ GET
+[pid: 20248|app: 0|req: 24/110] 183.225.10.217 () {44 vars in 877 bytes} [Thu Jul 13 21:49:07 2017] GET / => generated 383 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+/ GET
+[pid: 20247|app: 0|req: 75/111] 183.225.10.217 () {40 vars in 831 bytes} [Thu Jul 13 21:51:47 2017] GET / => generated 383 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 76/112] 183.225.10.217 () {42 vars in 876 bytes} [Thu Jul 13 21:52:13 2017] GET /2/ => generated 276 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+/ GET
+[pid: 20247|app: 0|req: 77/113] 183.225.10.217 () {40 vars in 831 bytes} [Thu Jul 13 21:52:22 2017] GET / => generated 383 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 25/114] 101.226.33.200 () {38 vars in 555 bytes} [Thu Jul 13 21:52:23 2017] GET /2 => generated 0 bytes in 2 msecs (HTTP/1.1 301) 2 headers in 89 bytes (1 switches on core 0)
+[pid: 20250|app: 0|req: 13/115] 101.226.33.200 () {40 vars in 599 bytes} [Thu Jul 13 21:52:23 2017] GET /2/ => generated 276 bytes in 12 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+/ GET
+[pid: 20247|app: 0|req: 78/116] 183.225.10.217 () {40 vars in 837 bytes} [Thu Jul 13 22:11:33 2017] GET / => generated 383 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+/ GET
+[pid: 20248|app: 0|req: 26/117] 183.225.10.217 () {40 vars in 837 bytes} [Thu Jul 13 22:11:37 2017] GET / => generated 383 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20250|app: 0|req: 14/118] 183.225.10.217 () {42 vars in 882 bytes} [Thu Jul 13 22:11:41 2017] GET /1/ => generated 315 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+/ GET
+[pid: 20247|app: 0|req: 79/119] 183.225.10.217 () {40 vars in 837 bytes} [Thu Jul 13 22:11:45 2017] GET / => generated 383 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 80/120] 180.163.2.119 () {38 vars in 670 bytes} [Thu Jul 13 22:11:52 2017] GET /1 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 89 bytes (1 switches on core 1)
+[pid: 20250|app: 0|req: 15/121] 180.163.2.119 () {40 vars in 714 bytes} [Thu Jul 13 22:11:52 2017] GET /1/ => generated 315 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20250|app: 0|req: 16/122] 183.225.10.217 () {38 vars in 734 bytes} [Thu Jul 13 22:12:55 2017] GET /admin => generated 0 bytes in 0 msecs (HTTP/1.1 301) 2 headers in 93 bytes (1 switches on core 1)
+[pid: 20249|app: 0|req: 1/123] 183.225.10.217 () {38 vars in 736 bytes} [Thu Jul 13 22:12:56 2017] GET /admin/ => generated 0 bytes in 32 msecs (HTTP/1.1 302) 7 headers in 292 bytes (1 switches on core 0)
+[pid: 20249|app: 0|req: 2/124] 183.225.10.217 () {38 vars in 773 bytes} [Thu Jul 13 22:12:56 2017] GET /admin/login/?next=/admin/ => generated 1655 bytes in 38 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20250|app: 0|req: 17/125] 183.225.10.217 () {40 vars in 732 bytes} [Thu Jul 13 22:13:04 2017] GET /favicon.ico => generated 112 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 81/126] 183.225.10.217 () {50 vars in 1115 bytes} [Thu Jul 13 22:13:34 2017] POST /admin/login/?next=/admin/ => generated 0 bytes in 90 msecs (HTTP/1.1 302) 9 headers in 558 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 82/127] 183.225.10.217 () {44 vars in 966 bytes} [Thu Jul 13 22:13:35 2017] GET /admin/ => generated 4470 bytes in 20 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 83/128] 183.225.10.217 () {40 vars in 776 bytes} [Thu Jul 13 22:13:42 2017] GET /favicon.ico => generated 112 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 20250|app: 0|req: 18/129] 183.225.10.217 () {42 vars in 952 bytes} [Thu Jul 13 22:13:47 2017] GET /admin/booktest/bookinfo/ => generated 8137 bytes in 56 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 84/130] 183.225.10.217 () {42 vars in 877 bytes} [Thu Jul 13 22:13:48 2017] GET /admin/jsi18n/ => generated 7682 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20250|app: 0|req: 19/131] 183.225.10.217 () {40 vars in 776 bytes} [Thu Jul 13 22:14:24 2017] GET /favicon.ico => generated 112 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 85/132] 183.225.10.217 () {40 vars in 906 bytes} [Thu Jul 13 22:25:16 2017] GET /admin/login/?next=/admin/ => generated 0 bytes in 8 msecs (HTTP/1.1 302) 7 headers in 273 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 86/133] 183.225.10.217 () {40 vars in 869 bytes} [Thu Jul 13 22:25:16 2017] GET /admin/ => generated 4470 bytes in 20 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 87/134] 183.225.10.217 () {40 vars in 776 bytes} [Thu Jul 13 22:26:16 2017] GET /favicon.ico => generated 112 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 88/135] 180.97.35.164 () {40 vars in 734 bytes} [Fri Jul 14 00:13:54 2017] GET /admin/login/?next=/admin => generated 1653 bytes in 15 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 89/136] 115.239.212.9 () {40 vars in 733 bytes} [Fri Jul 14 00:23:12 2017] GET /admin/booktest/bookinfo => generated 0 bytes in 2 msecs (HTTP/1.1 301) 2 headers in 111 bytes (1 switches on core 0)
+[pid: 20250|app: 0|req: 20/137] 115.239.212.9 () {38 vars in 690 bytes} [Fri Jul 14 00:23:12 2017] GET /admin/booktest/bookinfo/ => generated 0 bytes in 5 msecs (HTTP/1.1 302) 7 headers in 310 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 90/138] 115.239.212.9 () {38 vars in 727 bytes} [Fri Jul 14 00:23:13 2017] GET /admin/login/?next=/admin/booktest/bookinfo/ => generated 1691 bytes in 42 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20250|app: 0|req: 21/139] 115.239.212.68 () {40 vars in 698 bytes} [Fri Jul 14 00:24:54 2017] GET /admin => generated 0 bytes in 1 msecs (HTTP/1.1 301) 2 headers in 93 bytes (1 switches on core 1)
+[pid: 20248|app: 0|req: 27/140] 115.239.212.68 () {38 vars in 655 bytes} [Fri Jul 14 00:24:54 2017] GET /admin/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 7 headers in 292 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 28/141] 115.239.212.68 () {38 vars in 692 bytes} [Fri Jul 14 00:24:54 2017] GET /admin/login/?next=/admin/ => generated 1655 bytes in 14 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 91/142] 14.215.176.140 () {40 vars in 734 bytes} [Fri Jul 14 04:06:54 2017] GET /admin/booktest/bookinfo => generated 0 bytes in 3 msecs (HTTP/1.1 301) 2 headers in 111 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 92/143] 14.215.176.140 () {38 vars in 691 bytes} [Fri Jul 14 04:06:54 2017] GET /admin/booktest/bookinfo/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 7 headers in 310 bytes (1 switches on core 1)
+[pid: 20248|app: 0|req: 29/144] 14.215.176.140 () {38 vars in 728 bytes} [Fri Jul 14 04:06:54 2017] GET /admin/login/?next=/admin/booktest/bookinfo/ => generated 1691 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 4 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+/ GET
+[pid: 20249|app: 0|req: 3/146] 112.90.82.218 () {38 vars in 625 bytes} [Fri Jul 14 08:57:09 2017] GET / => generated 383 bytes in 44 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+/ GET
+[pid: 20249|app: 0|req: 4/147] 39.130.103.165 () {42 vars in 847 bytes} [Fri Jul 14 10:38:00 2017] GET / => generated 383 bytes in 74 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20249|app: 0|req: 5/148] 39.130.103.165 () {44 vars in 892 bytes} [Fri Jul 14 10:38:07 2017] GET /1/ => generated 315 bytes in 13 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 93/149] 39.130.103.165 () {42 vars in 831 bytes} [Fri Jul 14 10:38:08 2017] GET /favicon.ico => generated 112 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 94/150] 39.130.103.165 () {42 vars in 859 bytes} [Fri Jul 14 10:38:16 2017] GET /admin/ => generated 4470 bytes in 39 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 95/151] 39.130.103.165 () {44 vars in 942 bytes} [Fri Jul 14 10:38:20 2017] GET /admin/booktest/bookinfo/ => generated 8137 bytes in 44 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 96/152] 39.130.103.165 () {42 vars in 832 bytes} [Fri Jul 14 10:38:21 2017] GET /admin/jsi18n/ => generated 7682 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 97/153] 39.130.103.165 () {42 vars in 859 bytes} [Fri Jul 14 10:38:26 2017] GET /admin/ => generated 4470 bytes in 28 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 98/154] 39.130.103.165 () {44 vars in 942 bytes} [Fri Jul 14 10:38:31 2017] GET /admin/booktest/bookinfo/ => generated 8137 bytes in 35 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 99/155] 39.130.103.165 () {42 vars in 832 bytes} [Fri Jul 14 10:38:32 2017] GET /admin/jsi18n/ => generated 7682 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 30/156] 39.130.103.165 () {42 vars in 859 bytes} [Fri Jul 14 10:38:34 2017] GET /admin/ => generated 4470 bytes in 27 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 100/157] 39.130.103.165 () {44 vars in 942 bytes} [Fri Jul 14 10:38:35 2017] GET /admin/booktest/heroinfo/ => generated 12449 bytes in 42 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20248|app: 0|req: 31/158] 39.130.103.165 () {42 vars in 832 bytes} [Fri Jul 14 10:38:35 2017] GET /admin/jsi18n/ => generated 7682 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 101/159] 39.130.103.165 () {44 vars in 980 bytes} [Fri Jul 14 10:38:42 2017] GET /admin/booktest/heroinfo/18/change/ => generated 6870 bytes in 42 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 102/160] 39.130.103.165 () {42 vars in 842 bytes} [Fri Jul 14 10:38:42 2017] GET /admin/jsi18n/ => generated 7682 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 103/161] 39.130.103.165 () {44 vars in 942 bytes} [Fri Jul 14 10:38:46 2017] GET /admin/booktest/heroinfo/ => generated 12449 bytes in 39 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 104/162] 39.130.103.165 () {52 vars in 1141 bytes} [Fri Jul 14 11:37:19 2017] POST /admin/booktest/heroinfo/ => generated 12613 bytes in 54 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 105/163] 39.130.103.165 () {42 vars in 832 bytes} [Fri Jul 14 11:37:19 2017] GET /admin/jsi18n/ => generated 7682 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 106/164] 39.130.103.165 () {44 vars in 967 bytes} [Fri Jul 14 11:37:24 2017] GET /admin/booktest/heroinfo/?o=1 => generated 13179 bytes in 48 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 107/165] 39.130.103.165 () {42 vars in 836 bytes} [Fri Jul 14 11:37:24 2017] GET /admin/jsi18n/ => generated 7682 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 108/166] 39.130.103.165 () {44 vars in 946 bytes} [Fri Jul 14 11:37:27 2017] GET /admin/booktest/ => generated 2655 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 109/167] 39.130.103.165 () {44 vars in 947 bytes} [Fri Jul 14 11:37:31 2017] GET /admin/password_change/ => generated 2516 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 256 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 110/168] 39.130.103.165 () {44 vars in 813 bytes} [Fri Jul 14 11:53:51 2017] GET /admin/password_change/ => generated 0 bytes in 3 msecs (HTTP/1.1 302) 4 headers in 159 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 111/169] 39.130.103.165 () {44 vars in 850 bytes} [Fri Jul 14 11:53:52 2017] GET /admin/login/?next=/admin/password_change/ => generated 1687 bytes in 15 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 112/170] 39.130.103.165 () {50 vars in 1026 bytes} [Fri Jul 14 11:54:06 2017] POST /admin/login/?next=/admin/password_change/ => generated 1339 bytes in 5 msecs (HTTP/1.1 403) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 113/171] 39.130.103.165 () {42 vars in 819 bytes} [Fri Jul 14 11:55:38 2017] GET /admin/login/?next=/admin/password_change/ => generated 1687 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 114/172] 39.130.103.165 () {44 vars in 850 bytes} [Fri Jul 14 11:55:49 2017] GET /admin/login/?next=/admin/password_change/ => generated 1687 bytes in 11 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 115/173] 39.130.103.165 () {44 vars in 865 bytes} [Fri Jul 14 11:56:07 2017] GET /admin/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 292 bytes (1 switches on core 0)
+[pid: 20250|app: 0|req: 22/174] 39.130.103.165 () {44 vars in 902 bytes} [Fri Jul 14 11:56:08 2017] GET /admin/login/?next=/admin/ => generated 1655 bytes in 19 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 116/175] 39.130.103.165 () {44 vars in 849 bytes} [Fri Jul 14 11:56:10 2017] GET /admin/ => generated 0 bytes in 1 msecs (HTTP/1.1 302) 7 headers in 292 bytes (1 switches on core 1)
+[pid: 20249|app: 0|req: 6/176] 39.130.103.165 () {44 vars in 886 bytes} [Fri Jul 14 11:56:10 2017] GET /admin/login/?next=/admin/ => generated 1655 bytes in 17 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20249|app: 0|req: 7/177] 39.130.103.165 () {52 vars in 1067 bytes} [Fri Jul 14 11:56:22 2017] POST /admin/login/?next=/admin/ => generated 0 bytes in 93 msecs (HTTP/1.1 302) 9 headers in 558 bytes (1 switches on core 1)
+[pid: 20250|app: 0|req: 23/178] 39.130.103.165 () {46 vars in 924 bytes} [Fri Jul 14 11:56:22 2017] GET /admin/ => generated 4470 bytes in 29 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 117/179] 39.130.103.165 () {44 vars in 910 bytes} [Fri Jul 14 11:56:28 2017] GET /admin/booktest/heroinfo/ => generated 12449 bytes in 42 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 118/180] 39.130.103.165 () {42 vars in 800 bytes} [Fri Jul 14 11:56:29 2017] GET /admin/jsi18n/ => generated 7682 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20248|app: 0|req: 32/181] 39.130.103.165 () {44 vars in 948 bytes} [Fri Jul 14 11:56:37 2017] GET /admin/booktest/heroinfo/13/change/ => generated 6858 bytes in 44 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 33/182] 39.130.103.165 () {42 vars in 810 bytes} [Fri Jul 14 11:56:38 2017] GET /admin/jsi18n/ => generated 7682 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 119/183] 39.130.103.165 () {44 vars in 999 bytes} [Fri Jul 14 11:56:41 2017] GET /admin/booktest/bookinfo/3/change/?_to_field=id&_popup=1 => generated 20705 bytes in 64 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 120/184] 39.130.103.165 () {42 vars in 831 bytes} [Fri Jul 14 11:56:42 2017] GET /admin/jsi18n/ => generated 7682 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20248|app: 0|req: 34/185] 39.130.103.165 () {44 vars in 989 bytes} [Fri Jul 14 11:56:48 2017] GET /admin/booktest/bookinfo/add/?_to_field=id&_popup=1 => generated 13204 bytes in 53 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 35/186] 39.130.103.165 () {42 vars in 826 bytes} [Fri Jul 14 11:56:48 2017] GET /admin/jsi18n/ => generated 7682 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 121/187] 39.130.103.165 () {44 vars in 960 bytes} [Fri Jul 14 11:59:23 2017] GET /admin/booktest/heroinfo/13/history/ => generated 1788 bytes in 25 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+/ GET
+[pid: 20247|app: 0|req: 122/188] 116.54.114.116 () {38 vars in 591 bytes} [Fri Jul 14 14:53:54 2017] GET / => generated 383 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 123/189] 116.54.114.116 () {40 vars in 824 bytes} [Fri Jul 14 14:54:01 2017] GET /5/ => generated 159 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 124/190] 106.120.161.68 () {38 vars in 630 bytes} [Fri Jul 14 15:21:51 2017] GET /5/ => generated 159 bytes in 11 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+/ GET
+[pid: 20247|app: 0|req: 125/191] 106.120.161.68 () {38 vars in 623 bytes} [Fri Jul 14 15:22:40 2017] GET / => generated 383 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+/ GET
+[pid: 20247|app: 0|req: 126/192] 106.120.160.109 () {38 vars in 625 bytes} [Fri Jul 14 15:24:58 2017] GET / => generated 383 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+/ GET
+[pid: 20247|app: 0|req: 127/193] 171.13.14.131 () {44 vars in 777 bytes} [Fri Jul 14 15:26:49 2017] GET / => generated 383 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 128/194] 101.199.112.54 () {40 vars in 715 bytes} [Fri Jul 14 15:27:03 2017] GET /5/ => generated 159 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+uwsgi_proto_uwsgi_parser(): Success [proto/uwsgi.c line 40]
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 4 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 20247|app: 0|req: 129/196] 111.206.36.11 () {40 vars in 697 bytes} [Sat Jul 15 09:45:54 2017] GET /admin => generated 0 bytes in 16 msecs (HTTP/1.1 301) 2 headers in 93 bytes (1 switches on core 1)
+[pid: 20249|app: 0|req: 8/197] 111.206.36.11 () {38 vars in 654 bytes} [Sat Jul 15 09:45:54 2017] GET /admin/ => generated 0 bytes in 10 msecs (HTTP/1.1 302) 7 headers in 292 bytes (1 switches on core 1)
+[pid: 20250|app: 0|req: 24/198] 111.206.36.11 () {38 vars in 691 bytes} [Sat Jul 15 09:45:54 2017] GET /admin/login/?next=/admin/ => generated 1655 bytes in 181 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+[pid: 20247|app: 0|req: 130/199] 14.215.176.12 () {40 vars in 733 bytes} [Sat Jul 15 10:13:37 2017] GET /admin/booktest/bookinfo => generated 0 bytes in 4 msecs (HTTP/1.1 301) 2 headers in 111 bytes (1 switches on core 0)
+[pid: 20249|app: 0|req: 9/200] 14.215.176.12 () {38 vars in 690 bytes} [Sat Jul 15 10:13:37 2017] GET /admin/booktest/bookinfo/ => generated 0 bytes in 2 msecs (HTTP/1.1 302) 7 headers in 310 bytes (1 switches on core 0)
+[pid: 20250|app: 0|req: 25/201] 14.215.176.12 () {38 vars in 727 bytes} [Sat Jul 15 10:13:37 2017] GET /admin/login/?next=/admin/booktest/bookinfo/ => generated 1691 bytes in 13 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+/ GET
+[pid: 20247|app: 0|req: 131/202] 182.246.3.85 () {42 vars in 813 bytes} [Sat Jul 15 17:17:16 2017] GET / => generated 383 bytes in 36 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20249|app: 0|req: 10/203] 182.246.3.85 () {42 vars in 795 bytes} [Sat Jul 15 17:17:22 2017] GET /favicon.ico => generated 112 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 20250|app: 0|req: 26/204] 182.246.3.85 () {44 vars in 858 bytes} [Sat Jul 15 17:18:17 2017] GET /1/ => generated 315 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+/ GET
+[pid: 20247|app: 0|req: 132/205] 182.246.3.85 () {42 vars in 813 bytes} [Sat Jul 15 17:21:55 2017] GET / => generated 383 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 133/206] 182.246.3.85 () {44 vars in 858 bytes} [Sat Jul 15 17:21:57 2017] GET /5/ => generated 159 bytes in 9 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 134/207] 182.246.3.85 () {42 vars in 825 bytes} [Sat Jul 15 17:22:37 2017] GET /admin/ => generated 4470 bytes in 41 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 135/208] 182.246.3.85 () {44 vars in 928 bytes} [Sat Jul 15 17:22:50 2017] GET /admin/booktest/heroinfo/18/change/ => generated 6870 bytes in 44 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 136/209] 182.246.3.85 () {42 vars in 808 bytes} [Sat Jul 15 17:22:52 2017] GET /admin/jsi18n/ => generated 7682 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 137/210] 182.246.3.85 () {44 vars in 918 bytes} [Sat Jul 15 17:22:59 2017] GET /admin/booktest/ => generated 2655 bytes in 14 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 138/211] 182.246.3.85 () {44 vars in 917 bytes} [Sat Jul 15 17:24:07 2017] GET /admin/booktest/bookinfo/ => generated 8137 bytes in 36 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 139/212] 182.246.3.85 () {42 vars in 798 bytes} [Sat Jul 15 17:24:08 2017] GET /admin/jsi18n/ => generated 7682 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 140/213] 182.246.3.85 () {44 vars in 934 bytes} [Sat Jul 15 17:30:16 2017] GET /admin/booktest/bookinfo/add/ => generated 14166 bytes in 44 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 141/214] 182.246.3.85 () {42 vars in 802 bytes} [Sat Jul 15 17:30:16 2017] GET /admin/jsi18n/ => generated 7682 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 142/215] 182.246.3.85 () {44 vars in 912 bytes} [Sat Jul 15 17:32:48 2017] GET /admin/booktest/ => generated 2655 bytes in 14 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 143/216] 182.246.3.85 () {44 vars in 917 bytes} [Sat Jul 15 17:32:53 2017] GET /admin/booktest/bookinfo/ => generated 8137 bytes in 38 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 144/217] 182.246.3.85 () {42 vars in 798 bytes} [Sat Jul 15 17:32:54 2017] GET /admin/jsi18n/ => generated 7682 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 36/218] 182.246.3.85 () {44 vars in 912 bytes} [Sat Jul 15 17:33:10 2017] GET /admin/booktest/ => generated 2655 bytes in 65 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 145/219] 182.246.3.85 () {44 vars in 925 bytes} [Sat Jul 15 17:33:13 2017] GET /admin/booktest/bookinfo/add/ => generated 14166 bytes in 44 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20248|app: 0|req: 37/220] 182.246.3.85 () {42 vars in 802 bytes} [Sat Jul 15 17:33:14 2017] GET /admin/jsi18n/ => generated 7682 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 146/221] 182.246.3.85 () {52 vars in 1191 bytes} [Sat Jul 15 17:36:13 2017] POST /admin/booktest/bookinfo/add/ => generated 0 bytes in 57 msecs (HTTP/1.1 302) 8 headers in 539 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 147/222] 182.246.3.85 () {46 vars in 1178 bytes} [Sat Jul 15 17:36:14 2017] GET /admin/booktest/bookinfo/ => generated 8863 bytes in 34 msecs (HTTP/1.1 200) 8 headers in 489 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 148/223] 182.246.3.85 () {42 vars in 798 bytes} [Sat Jul 15 17:36:15 2017] GET /admin/jsi18n/ => generated 7682 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 149/224] 182.246.3.85 () {44 vars in 944 bytes} [Sat Jul 15 17:36:39 2017] GET /admin/booktest/bookinfo/6/change/ => generated 20090 bytes in 57 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 150/225] 182.246.3.85 () {42 vars in 807 bytes} [Sat Jul 15 17:36:40 2017] GET /admin/jsi18n/ => generated 7682 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 38/226] 182.246.3.85 () {44 vars in 955 bytes} [Sat Jul 15 17:36:51 2017] GET /admin/booktest/bookinfo/6/history/ => generated 2267 bytes in 26 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 151/227] 182.246.3.85 () {44 vars in 944 bytes} [Sat Jul 15 17:38:06 2017] GET /admin/booktest/bookinfo/6/change/ => generated 20090 bytes in 85 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20248|app: 0|req: 39/228] 182.246.3.85 () {44 vars in 917 bytes} [Sat Jul 15 20:09:43 2017] GET /admin/booktest/ => generated 2655 bytes in 34 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 152/229] 115.239.212.71 () {36 vars in 827 bytes} [Sat Jul 15 21:10:36 2017] GET /admin/login/?next=/admin&User-Agent=Mozilla%2F5.0+%28iPhone%3B+CPU+iPhone+OS+5_1_1+like+Mac+OS+X%29+AppleWebKit%2F534.46+%28KHTML%2C+like+Gecko%29+Version%2F5.1+Mobile%2F9B206+Safari%2F7534.48.3%0A => generated 1830 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+uwsgi_proto_uwsgi_parser(): Success [proto/uwsgi.c line 40]
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 4 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 4 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 7937 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+/ GET
+[pid: 20249|app: 0|req: 11/232] 106.56.38.191 () {42 vars in 814 bytes} [Mon Jul 17 09:28:20 2017] GET / => generated 433 bytes in 53 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20248|app: 0|req: 40/233] 106.56.38.191 () {42 vars in 796 bytes} [Mon Jul 17 09:28:20 2017] GET /favicon.ico => generated 112 bytes in 43 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 41/234] 106.56.38.191 () {44 vars in 859 bytes} [Mon Jul 17 09:28:23 2017] GET /1/ => generated 315 bytes in 31 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20250|app: 0|req: 27/235] 106.56.38.191 () {44 vars in 859 bytes} [Mon Jul 17 09:28:27 2017] GET /2/ => generated 276 bytes in 16 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 153/236] 106.56.38.191 () {44 vars in 859 bytes} [Mon Jul 17 09:28:32 2017] GET /6/ => generated 225 bytes in 56 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 154/237] 106.56.38.191 () {44 vars in 859 bytes} [Mon Jul 17 09:28:36 2017] GET /5/ => generated 159 bytes in 24 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 155/238] 106.56.38.191 () {42 vars in 826 bytes} [Mon Jul 17 09:28:52 2017] GET /admin/ => generated 4771 bytes in 52 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 156/239] 106.56.38.191 () {44 vars in 909 bytes} [Mon Jul 17 09:28:56 2017] GET /admin/booktest/bookinfo/ => generated 8681 bytes in 50 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 157/240] 106.56.38.191 () {42 vars in 799 bytes} [Mon Jul 17 09:28:56 2017] GET /admin/jsi18n/ => generated 7682 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 158/241] 106.56.38.191 () {44 vars in 950 bytes} [Mon Jul 17 09:30:38 2017] GET /admin/booktest/bookinfo/?q=%E6%B0%B4 => generated 6703 bytes in 33 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 159/242] 106.56.38.191 () {42 vars in 811 bytes} [Mon Jul 17 09:30:39 2017] GET /admin/jsi18n/ => generated 7682 bytes in 6 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 42/243] 106.56.38.191 () {44 vars in 940 bytes} [Mon Jul 17 09:30:46 2017] GET /admin/booktest/bookinfo/? => generated 8681 bytes in 67 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 160/244] 106.56.38.191 () {42 vars in 800 bytes} [Mon Jul 17 09:30:46 2017] GET /admin/jsi18n/ => generated 7682 bytes in 5 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 1)
+/ GET
+[pid: 20248|app: 0|req: 43/245] 95.215.61.97 () {32 vars in 430 bytes} [Mon Jul 17 11:04:24 2017] GET / => generated 433 bytes in 8 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 7937 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Success [proto/uwsgi.c line 40]
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 4 --
+invalid request block size: 20047 (max 4096)...skip
+/ GET
+[pid: 20247|app: 0|req: 161/247] 101.226.68.215 () {38 vars in 626 bytes} [Tue Jul 18 09:33:52 2017] GET / => generated 433 bytes in 56 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+/ GET
+[pid: 20247|app: 0|req: 162/248] 101.226.68.161 () {38 vars in 590 bytes} [Tue Jul 18 09:34:01 2017] GET / => generated 433 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+[pid: 20247|app: 0|req: 163/249] 111.206.36.136 () {40 vars in 698 bytes} [Tue Jul 18 16:55:16 2017] GET /admin => generated 0 bytes in 3 msecs (HTTP/1.1 301) 2 headers in 93 bytes (1 switches on core 0)
+[pid: 20250|app: 0|req: 28/250] 111.206.36.136 () {38 vars in 655 bytes} [Tue Jul 18 16:55:16 2017] GET /admin/ => generated 0 bytes in 12 msecs (HTTP/1.1 302) 7 headers in 292 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 164/251] 111.206.36.136 () {38 vars in 692 bytes} [Tue Jul 18 16:55:17 2017] GET /admin/login/?next=/admin/ => generated 1655 bytes in 33 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21584 (max 4096)...skip
+invalid request block size: 21584 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 5 --
+-- unavailable modifier requested: 4 --
+invalid request block size: 21283 (max 4096)...skip
+invalid request block size: 28171 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Resource temporarily unavailable [proto/uwsgi.c line 40]
+uwsgi_proto_uwsgi_parser(): Resource temporarily unavailable [proto/uwsgi.c line 40]
+-- unavailable modifier requested: 128 --
+uwsgi_proto_uwsgi_parser(): Resource temporarily unavailable [proto/uwsgi.c line 40]
+uwsgi_proto_uwsgi_parser(): Success [proto/uwsgi.c line 40]
+invalid request block size: 19525 (max 4096)...skip
+-- unavailable modifier requested: 22 --
+-- unavailable modifier requested: 22 --
+Empty python request. skip.
+[pid: 20247|app: -1|req: -1/257]  () {0 vars in 0 bytes} [Tue Jul 18 19:08:06 2017]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 1)
+Empty python request. skip.
+[pid: 20250|app: -1|req: -1/258]  () {0 vars in 0 bytes} [Tue Jul 18 19:08:06 2017]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 0)
+uwsgi_proto_uwsgi_parser(): Success [proto/uwsgi.c line 40]
+invalid request block size: 25956 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Success [proto/uwsgi.c line 40]
+uwsgi_proto_uwsgi_parser(): Success [proto/uwsgi.c line 40]
+invalid request block size: 21584 (max 4096)...skip
+invalid request block size: 19790 (max 4096)...skip
+-- unavailable modifier requested: 3 --
+invalid request block size: 25709 (max 4096)...skip
+-- unavailable modifier requested: 58 --
+invalid request block size: 19794 (max 4096)...skip
+-- unavailable modifier requested: 1 --
+uwsgi_proto_uwsgi_parser(): Resource temporarily unavailable [proto/uwsgi.c line 40]
+uwsgi key cannot be null. skip this var.
+[pid: 20247|app: -1|req: -1/262]  () {0 vars in 3 bytes} [Tue Jul 18 19:08:14 2017]   => generated 0 bytes in 0 msecs ( 500) 0 headers in 0 bytes (0 switches on core 1)
+invalid request block size: 20297 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Success [proto/uwsgi.c line 40]
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 16709 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 3 --
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+/ GET
+[pid: 17911|app: 0|req: 3/28] 95.215.61.97 () {28 vars in 383 bytes} [Wed Jul 19 14:58:45 2017] GET / => generated 433 bytes in 213 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 7937 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+/ GET
+[pid: 20249|app: 0|req: 12/264] 42.243.140.226 () {42 vars in 815 bytes} [Thu Jul 20 19:01:36 2017] GET / => generated 433 bytes in 44 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20248|app: 0|req: 44/265] 42.243.140.226 () {42 vars in 797 bytes} [Thu Jul 20 19:01:37 2017] GET /favicon.ico => generated 112 bytes in 30 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 20248|app: 0|req: 45/266] 42.243.140.226 () {44 vars in 860 bytes} [Thu Jul 20 19:01:38 2017] GET /1/ => generated 315 bytes in 49 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 165/267] 42.243.140.226 () {42 vars in 827 bytes} [Thu Jul 20 19:01:46 2017] GET /admin/ => generated 4771 bytes in 95 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21327 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+/ GET
+[pid: 20247|app: 0|req: 166/268] 80.82.77.33 () {34 vars in 535 bytes} [Sat Jul 22 10:49:13 2017] GET / => generated 433 bytes in 80 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 7937 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+/ GET
+[pid: 20250|app: 0|req: 29/269] 39.130.103.135 () {42 vars in 815 bytes} [Sun Jul 23 17:51:27 2017] GET / => generated 433 bytes in 65 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20249|app: 0|req: 13/270] 39.130.103.135 () {42 vars in 797 bytes} [Sun Jul 23 17:51:27 2017] GET /favicon.ico => generated 112 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 20249|app: 0|req: 14/271] 39.130.103.135 () {44 vars in 860 bytes} [Sun Jul 23 17:51:29 2017] GET /1/ => generated 315 bytes in 30 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 167/272] 39.130.103.135 () {42 vars in 827 bytes} [Sun Jul 23 17:51:35 2017] GET /admin/ => generated 4771 bytes in 128 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 168/273] 39.130.103.135 () {44 vars in 910 bytes} [Sun Jul 23 17:51:38 2017] GET /admin/booktest/bookinfo/ => generated 8681 bytes in 65 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 169/274] 39.130.103.135 () {42 vars in 800 bytes} [Sun Jul 23 17:51:38 2017] GET /admin/jsi18n/ => generated 7682 bytes in 10 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+[pid: 20247|app: 0|req: 170/275] 39.130.103.135 () {44 vars in 946 bytes} [Sun Jul 23 17:52:08 2017] GET /admin/booktest/bookinfo/6/change/ => generated 20090 bytes in 75 msecs (HTTP/1.1 200) 7 headers in 405 bytes (1 switches on core 1)
+[pid: 20247|app: 0|req: 171/276] 39.130.103.135 () {42 vars in 809 bytes} [Sun Jul 23 17:52:08 2017] GET /admin/jsi18n/ => generated 7682 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 93 bytes (1 switches on core 0)
+invalid request block size: 20047 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Success [proto/uwsgi.c line 40]
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 4 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+[pid: 20250|app: 0|req: 30/278] 58.218.205.84 () {34 vars in 505 bytes} [Tue Jul 25 00:12:54 2017] GET /manager/html => generated 113 bytes in 46 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 7937 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+-- unavailable modifier requested: 3 --
+-- unavailable modifier requested: 3 --
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+/ GET
+[pid: 20248|app: 0|req: 46/281] 198.20.69.74 () {34 vars in 536 bytes} [Tue Jul 25 20:38:44 2017] GET / => generated 433 bytes in 96 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+-- unavailable modifier requested: 22 --
+invalid request block size: 21573 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 35]
+invalid request block size: 46270 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 35]
+invalid request block size: 30831 (max 4096)...skip
+invalid request block size: 21584 (max 4096)...skip
+Empty python request. skip.
+[pid: 20249|app: -1|req: -1/283]  () {0 vars in 0 bytes} [Tue Jul 25 20:44:37 2017]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 0)
+Empty python request. skip.
+[pid: 20250|app: -1|req: -1/284]  () {0 vars in 0 bytes} [Tue Jul 25 20:44:37 2017]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 1)
+-- unavailable modifier requested: 204 --
+invalid request block size: 24948 (max 4096)...skip
+invalid request block size: 28530 (max 4096)...skip
+-- unavailable modifier requested: 99 --
+Empty python request. skip.
+[pid: 20250|app: -1|req: -1/287]  () {0 vars in 0 bytes} [Tue Jul 25 20:44:38 2017]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 0)
+-- unavailable modifier requested: 3 --
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 35]
+-- unavailable modifier requested: 3 --
+-- unavailable modifier requested: 3 --
+-- unavailable modifier requested: 3 --
+-- unavailable modifier requested: 3 --
+-- unavailable modifier requested: 3 --
+-- unavailable modifier requested: 3 --
+invalid request block size: 17747 (max 4096)...skip
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 87 --
+invalid request block size: 21330 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 35]
+-- unavailable modifier requested: 164 --
+-- unavailable modifier requested: 1 --
+invalid request block size: 17998 (max 4096)...skip
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 35]
+invalid request block size: 19794 (max 4096)...skip
+invalid request block size: 17156 (max 4096)...skip
+invalid request block size: 25709 (max 4096)...skip
+Empty python request. skip.
+[pid: 20249|app: -1|req: -1/299]  () {0 vars in 0 bytes} [Tue Jul 25 20:45:01 2017]   => generated 0 bytes in 0 msecs ( 0) 0 headers in 0 bytes (0 switches on core 1)
+invalid request block size: 20041 (max 4096)...skip
+-- unavailable modifier requested: 67 --
+uwsgi_proto_uwsgi_parser(): Connection reset by peer [proto/uwsgi.c line 35]
+invalid request block size: 30783 (max 4096)...skip
+invalid request block size: 29296 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 16709 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 20047 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 16709 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip

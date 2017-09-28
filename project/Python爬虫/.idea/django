@@ -1,0 +1,17 @@
+django ORM模型（通过现有的数据把数据库自动生成ORM模型）
+模板 模板继承 过滤器
+创建项目：
+django-admin startproject xiaoshuo
+启动服务：
+进入xiaoshuo的目录：
+python manage.py runserver
+创建应用：
+python manage.py startapp novel 处理业务
+
+一个项目至少包含一个应用
+项目包：xiaoshuo
+url用于配置路由
+一个网站有很多个页面，一个页面就是一个路由
+django ORM
+对象关系映射
+sql语句

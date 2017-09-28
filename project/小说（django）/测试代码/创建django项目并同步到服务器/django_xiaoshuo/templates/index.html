@@ -1,0 +1,159 @@
+{% load static %}
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Keywords" content="" />
+    <meta name="description" content="" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" /> -->
+    <title>Python探索馆 - Slice</title>
+    <!-- Main Theme -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+
+    <!-- Font -->
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_n5vylbuqe61or.css" />
+  </head>
+<body>
+
+
+<!--===== Full Screen BG =====-->
+<div class="full-pic"></div>
+
+
+
+<!--===== Begin Header =====-->
+<header class="header">
+  <div class="fixed-head" style="position: fixed; width: 100%; background-color: #65b2f1; -webkit-transform: translateZ(0);">
+    <div class="wrap1000 head-wrap">
+
+      <div class="logo">
+        <a href="detail.html">
+          Python学院图书馆
+        </a>
+      </div>
+
+      <!-- nav -->
+      <div class="nav">
+        <ul class="nav-list">
+          <li>
+            <a href="detail.html"><span>首页</span></a>
+          </li>
+          <li>
+            <a href="detail.html"><span>玄幻</span></a>
+          </li>
+          <li>
+            <a href="detail.html"><span>修仙</span></a>
+          </li>
+          <li>
+            <a href="detail.html"><span>都市</span></a>
+          </li>
+          <li>
+            <a href="detail.html"><span>文学</span></a>
+          </li>
+        </ul>
+      </div><!-- ./nav -->
+
+      <div class="search">
+        <form action="search.html" method="get" target="_blank">
+          <input name="kw" placeholder="搜索书名" class="search-inp" type="text" maxlength="10" />
+          <input id="search-submit-btn" type="submit" style="display: none;" />
+          <label for="search-submit-btn">
+            <i class="iconfont icon-search"></i>
+          </label>
+        </form>
+      </div>
+
+    </div><!-- /.wrap1000 -->
+  </div>
+</header>
+<!--===== header End =====-->
+
+
+
+<!--===== Begin Main =====-->
+<section class="main">
+  <div class="main-wrap wrap1000">
+    <div class="hot-section">
+
+      <div class="hot-shadow">
+        <div class="hot-title">最热</div>
+      </div>
+      
+      <!-- figure -->
+      <div class="figure"></div>
+
+      <div class="hot-content">
+
+        <!-- banner -->
+        <div class="banner">
+          <ul class="banner-imgs">
+            <li>
+              <a href="detail.html">
+                  <img src="{% static 'img/1.jpg' %}" alt="" width="750" height="300" />
+              </a>
+            </li>
+            <li>
+              <a href="detail.html"><img src="{% static 'img/2.jpg' %}" alt="" width="750" height="300" /></a>
+            </li>
+            <li>
+              <a href="detail.html"><img src="{% static 'img/3.jpg' %}" alt="" width="750" height="300" /></a>
+            </li>
+            <li>
+              <a href="detail.html"><img src="{% static 'img/4.jpg' %}" alt="" width="750" height="300" /></a>
+            </li>
+            <li>
+              <a href="detail.html"><img src="{% static 'img/5.png' %}" alt="" width="750" height="300" /></a>
+            </li>
+          </ul><!-- /.imgs -->
+
+          <div class="control-page">
+            <a class="iconfont icon-bannerzuo" href="javascript: void(0);"></a>
+            <a class="iconfont icon-banneryou" href="javascript: void(0);"></a>
+          </div>
+
+          <ul class="banner-btn">
+            <li class="banner-btn-on"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+
+        </div><!-- /.banner -->
+
+
+
+
+        <div class="hot-recommend">
+          <ul class="hot-list">
+            {% for novel in  novels %}
+                <li>
+                  <a href="{% url 'detail' novel.novelid %}">
+                    <div>
+                      <img src="{% static 'img/book-1.jpg' %}" alt="" width="" /><span></span>
+                    </div>
+                    <p>
+                      <b>{{ novel.novelname }} </b>
+                      <span class="author">辰东 著</span>
+                      <span class="book-description">
+                        心潮澎湃，无限幻想，迎风挥击千层浪，少年不败热血！
+                      </span>
+                    </p>
+                  </a>
+            </li>
+            {% endfor %}
+
+          </ul>
+        </div><!-- /.recommend -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Main Plugin -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="{% static 'js/index.js' %}"></script>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="06b7ba41-10ea-4c12-b67b-c9e7bf9c7266" name="myserver" url="http://172.93.39.34">
+        <fileTransfer host="172.93.39.34" port="29192" rootFolder="/root/django_xiaoshuo" accessType="SFTP" password="df92dffddf92dff2dfc1dffddf93dfd9dffedfe7df93dfc2" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="29192" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

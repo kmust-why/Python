@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}
+    免费小说网
+{% endblock %}
+
+{% block novels %}
+    {% for novel in novels %}
+
+        <li><a href="{% url 'novel_list' novel.novelid %}">{{ novel.novelname }}</a></li>
+
+    {% endfor %}
+{% endblock %}
+
+{% block foter%}
+    <br>开发者：王海云
+{% endblock %}

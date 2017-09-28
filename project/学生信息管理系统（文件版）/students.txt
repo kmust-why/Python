@@ -1,0 +1,50 @@
+[
+  {
+    "deleted": true,
+    "score": 11,
+    "id": 1,
+    "remark": "qwew",
+    "name": "dean",
+    "sex": "你好"
+  },
+  {
+    "deleted": true,
+    "score": 101,
+    "id": 2,
+    "remark": "handsome",
+    "name": "sam",
+    "sex": "男"
+  },
+  {
+    "deleted": false,
+    "score": 12,
+    "id": 3,
+    "remark": "美男",
+    "name": "dean",
+    "sex": "男"
+  },
+  {
+    "deleted": false,
+    "score": 100,
+    "id": 4,
+    "remark": "know nothing",
+    "name": "jon",
+    "sex": "男"
+  },
+  {
+    "deleted": false,
+    "score": 111,
+    "id": 5,
+    "remark": "wefw",
+    "name": "dean",
+    "sex": "男"
+  },
+  {
+    "deleted": false,
+    "score": 90,
+    "id": 6,
+    "remark": "测试",
+    "name": "王海云",
+    "sex": "男"
+  }
+]

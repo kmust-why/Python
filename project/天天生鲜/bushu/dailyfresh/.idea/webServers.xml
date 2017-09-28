@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c2433da3-cc4b-494d-b2d5-e76063b9926a" name="dailyfresh" url="http://172.93.39.34">
+        <fileTransfer host="172.93.39.34" port="29192" rootFolder="/root/dailyfresh" accessType="SFTP" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="29192" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

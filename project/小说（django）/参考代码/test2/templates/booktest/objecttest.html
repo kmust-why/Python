@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{# <a href="{% url 'booktest:show' '456' '789' %}">显示</a>  #}
+{# <a href="/urltest/123/">显示</a> #}
+
+<a href="{% url 'booktest:urltest' 678 %}">显示</a>
+<hr>
+奇数行显示为红色，偶数行显示为蓝色
+<hr>
+<ul>
+{% for i in hero %}
+    {% if forloop.counter|divisibleby:"2" %}
+         <li style="color:red">{{ forloop.counter }}:{{ i.show }}</li>
+    {% else %}
+        <li style="color:blue">{{ forloop.counter }}:{{ i.show }}</li>
+    {% endif %}
+{% empty %}
+    <li>啥也没有</li>
+{% endfor %}
+</ul>
+</body>
+</html>
