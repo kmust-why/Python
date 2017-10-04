@@ -1,5 +1,7 @@
 1、安装安装python3.5可能使用的依赖
+
 python安装：
+
 参考：http://www.linuxidc.com/Linux/2016-04/129784.htm
 
 2、安装wget工具
@@ -143,4 +145,8 @@ https://my.oschina.net/hevakelcj/blog/384070
 
 41、pycharm 同步项目到服务器
 http://blog.csdn.net/tantexian/article/details/38314729
+
+42、阿里云 Centos7.3安装mysql5.7.18 rpm安装和centos7下使用yum安装mysql
+http://www.cnblogs.com/free-ys/p/6947489.html
+http://www.cnblogs.com/julyme/p/5969626.html
 
