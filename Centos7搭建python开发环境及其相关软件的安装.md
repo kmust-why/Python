@@ -1,8 +1,8 @@
-### 1、安装安装python3.5可能使用的依赖
+1、安装安装python3.5可能使用的依赖
 python安装：
 参考：http://www.linuxidc.com/Linux/2016-04/129784.htm
 
-###2、安装wget工具
+2、安装wget工具
 安装命令：yum -y install wget
 
 3、安装yum工具
