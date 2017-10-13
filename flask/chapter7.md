@@ -1,4 +1,4 @@
-# flask进阶（Flask-Script）：
+# flask进阶（Flask-Script）
 
 `Flask-Script`的作用是可以通过命令行的形式来操作`Flask`。例如通过命令跑一个开发版本的服务器、设置数据库，定时任务等。要使用`Flask-Script`，可以通过`pip install flask-script`安装最新版本。首先看一个最简单的例子：
 
