@@ -83,7 +83,7 @@ DATABASES = {
     'ENGINE':'django.db.backends.postgresql_psycopg2',
     'NAME':'tiantian',#数据库名字
     'USER':'postgres',#登录用户名
-    'PASSWORD':'postgresql',
+    'PASSWORD':'abc123',
     'HOST':'127.0.0.1',#数据库IP地址
     'PORT':'5432',
     }
